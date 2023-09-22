@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnWell's website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1><b>LEARN WELL!</b></h1>
+        <p><u><b>Welcome to the world's best learning platform!</b></u></p>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a href=""><i class="bi bi-browser-chrome"></i></a>
+                    <label for="Search bar"></label>
+                    <input type="text" for="Search bar" placeholder="Search here...">
+
+                </div>
+
+                <div class="navbar-items">
+                    <ul class="list-items">
+                        <li><a href="./Article1.html" class="anchor-items"><svg width="1" height="1">
+                                    <img src="html5.svg" alt="">
+                                </svg>HTML</a></li>
+                        <li><a href="./Article2.html" class="anchor-items"><svg width="1" height="1">
+                                    <img src="css3.svg" alt="">
+                                </svg>CSS</a></li>
+                        <li><a href="./Article3.html" class="anchor-items"><svg width="1" height="1">
+                                    <img src="js.svg" alt="">
+                                </svg>Javascript</a></li>
+                        <li><a href="./User.html" class="anchor-items"><svg width="1" height="1">
+                                    <img src="user.svg" alt="" />
+                                </svg>User Information</a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar-button">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-3">
+                    <div class="sidebar">
+                        <a class="active" id="home" href="./index.html">Home</a>
+                        <a href="./Article1.html">HTML</a>
+                        <a href="./Article2.html">CSS</a>
+                        <a href="./Article3.html">JAVASCRIPT</a>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div>
+                        <a href="./Article1.html">
+                            <article id="article1">
+                                <h3 style="color: black;"><u>Learn HTML</u></h3>
+                                <p>HTML, or Hypertext Markup Language, serves as the foundation of the web, providing a
+                                    structured
+                                    and semantic way to create content. Through a system of tags and elements, HTML
+                                    defines the
+                                    structure of web pages, encompassing headings, paragraphs, lists, links, images,
+                                    forms, and
+                                    more. HTML allows developers to outline the hierarchy of information on a webpage,
+                                    aiding in
+                                    accessibility and search engine optimization. By embedding multimedia and scripting
+                                    languages,
+                                    like CSS and JavaScript, HTML contributes to the dynamic and interactive nature of
+                                    modern
+                                    websites. Its versatility and widespread adoption have made it an essential tool for
+                                    crafting
+                                    cohesive and engaging online experiences.
+                                </p>
+                                <a type="button" class="btn btn-primary btn-sm" id="html" href="./Article1.html">READ MORE!</a>
+                            </article>
+                        </a>
+
+                        <a href="./Article2.html">
+                            <article id="article2">
+                                <h3 style="color: black;"><u>Learn CSS</u></h3>
+                                <p>CSS, or Cascading Style Sheets, is a pivotal component of web development that
+                                    complements HTML.
+                                    It's a stylesheet language used to define the visual presentation and layout of HTML
+                                    elements on
+                                    web pages. By utilizing CSS rules and selectors, developers can control properties
+                                    like colors,
+                                    fonts, spacing, and positioning, which collectively determine the aesthetic and user
+                                    experience
+                                    of a website. CSS enables consistent branding and responsive design, allowing
+                                    content to adapt
+                                    elegantly to various screen sizes and devices. With its separation of content and
+                                    presentation,
+                                    CSS streamlines the development process and enhances the overall look and feel of
+                                    websites.</p>
+                                <a type="button" class="btn btn-primary btn-sm" id="css" href="./Article2.html">READ MORE!</a>
+                            </article>
+                        </a>
+
+                        <a href="./Article3.html">
+                            <article id="article3">
+                                <h3 style="color: black;"><u>Learn JAVASCRIPT</u></h3>
+                                <p>JavaScript is a versatile programming language that adds interactivity and dynamic
+                                    behavior to
+                                    websites. As a cornerstone of web development, it allows developers to create
+                                    responsive
+                                    features like form validation, animations, and real-time updates without requiring
+                                    page reloads.
+                                    JavaScript can manipulate HTML and CSS, enabling changes to content and style based
+                                    on user
+                                    actions. Its wide adoption, coupled with its ability to interact with server-side
+                                    technologies
+                                    through APIs, makes JavaScript an essential tool for crafting engaging and
+                                    user-friendly web
+                                    experiences.</p>
+                                <a type="button" class="btn btn-primary btn-sm" id="java" href="./Article3.html">READ MORE!</a>
+                            </article>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="links">
+            <p>Here are some useful links: </p>
+            <a href="#"><u>HTML Tutorials</u></a>
+            <br>
+            <a href="#"><u>CSS Tutorials</u></a>
+            <br>
+            <a href="#"><u>Bootstrap Tutorials</u></a>
+            <br>
+            <a href="#"><u>JAVASCRIPT Tutorials</u></a>
+        </div>
+
+        <div class="mb-3">
+            <label for="Username" class="form-label">Username</label>
+            <input type="email" class="username" id="username1" placeholder="xyz">
+        </div>
+        <div class="mb-3">
+            <label for="Password" class="form-label">Password</label>
+            <textarea class="form-control" id="password1" rows="1"></textarea>
+            <button type="submit" class="btn btn-primary">Register Here</button>
+        </div>
+
+        <h4>Contact Information:</h4>
+        Email: sagar.gurung123@.gmail.com
+        Phone no. 9223524564564
+        <address>
+            SG Palya, Bangalore - 560029(INDIA)
+        </address>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+</html>

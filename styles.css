@@ -1,0 +1,150 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.anchor-items {
+    color: white;
+    text-decoration: none;
+}
+
+.anchor-items:hover {
+    color: blueviolet;
+}
+
+header h1 {
+    text-align: center;
+    position: relative;
+}
+
+header p {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.container-fluid {
+    display: flex;
+}
+
+.navbar-items {
+    margin: 0.3em;
+    padding: 0.2em;
+    width: 50%;
+}
+
+header {
+    background-color: crimson;
+    color: aliceblue;
+    align-items: center;
+}
+
+main {
+    display: inline-block;
+    width: 90%;
+    border: 1px solid black;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    margin-top: 0;
+    width: 90%;
+    border: 2px solid black;
+    background-color: #f1f1f1;
+  }
+  
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+.sidebar a:hover {
+    background-color: black;
+    color: white;
+}
+   
+.sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+#article1 {
+    display: flex;
+    margin: 5px;
+    padding: 30px;
+    background-color: aqua;
+}
+
+#article2 {
+    display: flex;
+    margin: 5px;
+    padding: 30px;
+    background-color: bisque;
+}
+
+#article3 {
+    display: flex;
+    margin: 5px;
+    padding: 30px;
+    background-color: khaki;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+
+footer p {
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+footer a {
+    align-items: center;
+    color: white;
+}
+
+.links {
+    margin: 0%;
+    padding: 1em;
+    padding-bottom: 2em;
+}
+
+#html {
+    margin: 1px;
+    padding: 10px;
+    height: 100px;
+}
+
+#css {
+    margin: 1px;
+    padding: 10px;
+    height: 100px;
+}
+
+#java {
+    margin: 1px;
+    padding: 10px;
+    height: 100px;
+}

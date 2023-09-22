@@ -1,0 +1,58 @@
+<!-- User Profile Page: Registered users should have a profile page displaying their avatar, username, bio, and a list of articles they've contributed. -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>User profile page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  </head>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #b93a3a;
+    }
+    h1 {
+      margin: 1em;
+      padding: 0.3em;
+      background-color: black;
+      color: aliceblue;
+      font-size: 70px;
+      border-radius: 0.2em;
+      justify-content: center;
+      justify-items: center;
+    }
+
+    section {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: yellowgreen;
+      color: darkblue;
+    }
+    ul li {
+      color: aliceblue;
+      border: 4px solid black;
+      padding: 0.4em;
+      font-size: 2.1rem;
+      list-style-type: none;
+    }
+
+  </style>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1><u>User's Profile</u></h1>
+      </div>
+      <div class="fields">
+        <ul>
+          <li><b>Avatar:</b> <img src="./user_avatar.png" alt="" height="1" width="1"></li>
+          <li><b>Username:</b> <label for="">Adam123</label></li>
+          <li><b>Bio:</b> <label for="">Adam is a proficient HTML writer who has honed his craft over the years, transforming lines of code into captivating web experiences.</label></li>
+          <li><b>Contributions:</b> <label for="">Adam's key contributions to HTML include advocating for semantic HTML elements and championing web accessibility, creating websites.</label></li>
+        </ul>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  </body>
+</html>
